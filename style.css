@@ -1,0 +1,140 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: white;
+}
+
+header {
+    background-color: #6c2c92;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+/* Navigation */
+nav {
+    background-color: #3a1f47;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    background-color: #6c2c92;
+}
+
+nav a:hover {
+    background-color: #5a1d78;
+}
+
+/* Section Style */
+section {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 20px;
+    border-radius: 8px;
+}
+
+/* Language Menu */
+.lang-selector {
+    text-align: center;
+    margin: 20px 0;
+}
+
+select {
+    font-size: 1rem;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #6c2c92;
+    color: white;
+    border: none;
+}
+
+/* Input Group */
+.input-group {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.input-group input {
+    padding: 10px;
+    font-size: 1rem;
+    width: 60%;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.input-group button {
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #6c2c92;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.input-group button:hover {
+    background-color: #5a1d78;
+}
+
+/* Download Link */
+.download-link {
+    display: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.download-link a {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #6c2c92;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.download-link a:hover {
+    background-color: #5a1d78;
+}
+
+/* Download Bar */
+.progress-container {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    display: none;
+    margin-top: 20px;
+}
+
+.progress-bar {
+    width: 0;
+    height: 30px;
+    background-color: #6c2c92;
+    text-align: center;
+    color: white;
+    line-height: 30px;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #3a1f47;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
